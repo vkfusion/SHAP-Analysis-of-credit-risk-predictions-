@@ -26,44 +26,10 @@ This project aims to develop a robust machine learning model for predicting cred
 * **Explainable Decisions:** With SHAP's **Force Plot**, we can now explain the specific factors that drive each individual prediction, offering a transparent and data-driven approach to credit decisions.
 
 ## Repository Structure
-project/
-│
-├── data/
-│   ├── raw/
-│   │   └── default_of_credit_card_clients.xls       # Original UCI dataset
-│   ├── processed/
-│   │   └── cleaned_credit_data.csv                  # Cleaned dataset
-│
-├── notebooks/
-│   └── Default_Risk_Prediction_using_XGBoost_and_SHAP.ipynb   # Full pipeline (recommended)
-│
-├── src/
-│   ├── preprocess.py                 # Cleaning, encoding, scaling
-│   ├── train_xgboost.py              # Model training script
-│   ├── evaluate_model.py             # Confusion matrix, ROC-AUC, accuracy
-│   ├── shap_analysis.py              # SHAP summary, feature importance
-│   └── utils.py                      # Helper functions
-│
-├── outputs/
-│   ├── plots/
-│   │   ├── shap_summary_plot.png
-│   │   ├── shap_feature_importance.png
-│   │   ├── shap_force_plot_sample.png
-│   │   ├── confusion_matrix.png
-│   │   └── roc_auc_curve.png
-│   │
-│   ├── reports/
-│   │   └── model_report.pdf
-│   │
-│   └── predictions/
-│       └── default_predictions.csv
-│
-├── models/
-│   ├── xgboost_model.pkl             # Saved trained model
-│
-├── README.md                         # Full project documentation
-├── requirements.txt                  # Python dependencies
-└── .gitignore
+- Default_Risk_Prediction_using_XGBoost_and_SHAP.ipynb
+- default_of_credit_card_clients.xls
+- Outputs/
+- readme.md
 
 
 
